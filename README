@@ -1,0 +1,22 @@
+
+Project
+
+  Qt Load Symbol Definition
+
+
+Usage
+  
+  qlsd <path-to-library> <symbol-name>
+
+
+Description
+
+  Cross-platform C++ utility used to check if a given symbol can be resolved within 
+  a given library using Qt.
+
+
+Example
+
+  ./qlsd /home/jchris/Projects/Slicer4-Qt-PythonQt-With-Tcl-Debug/Slicer-build/lib/Slicer3/Plugins/libAddLib.so XMLModuleDescription
+Analysing [/home/jchris/Projects/Slicer4-Qt-PythonQt-With-Tcl-Debug/Slicer-build/lib/Slicer3/Plugins/libAddLib.so] ...
+Successfully resolved symbol [XMLModuleDescription] => 0x7fefecf03180
